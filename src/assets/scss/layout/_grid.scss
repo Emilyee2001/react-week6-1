@@ -1,0 +1,14 @@
+.container {
+  max-width: 1320px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.row {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+.column {
+  max-width: calc((100%/3));
+}

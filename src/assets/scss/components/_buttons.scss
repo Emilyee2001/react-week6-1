@@ -1,0 +1,28 @@
+.btn-secondary-outlined {
+  border-radius: 0;
+  border: 1px solid $gray-200;
+  background-color: #ffffff;
+  font-weight: 600;
+  &.active{
+    background-color: $gray-950;
+  }
+}
+
+.btn-gray-outlined {
+  width: calc(100% - 1rem);
+  border-radius: 0;
+  border: 1px solid $gray-950;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  opacity: 0;
+  transition: 0.5s;
+  padding: 1rem;
+}
+
+.btn-gray-outlined-hover {
+  &:hover{
+    .btn-gray-outlined{
+      opacity: 1;
+    }
+  }
+}

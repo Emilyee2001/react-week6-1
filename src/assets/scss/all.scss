@@ -1,0 +1,21 @@
+// bootstrap
+@import 'bootstrap/scss/functions';
+@import './helpers/variables';
+@import 'bootstrap/scss/bootstrap';
+
+// font & icon
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+
+// helpers
+// @import "./helpers/utils";
+@import "bootstrap/scss/utilities/api";
+
+// base
+@import './base/base';
+
+// layout
+@import './layout/grid';
+
+// components
+@import './components/cards';
+@import './components/buttons';
